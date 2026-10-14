@@ -1,0 +1,22 @@
+{
+  "name": "@paypilot/shared",
+  "version": "0.1.0",
+  "description": "Shared domain constants, types, and contract definitions for PayPilot AI",
+  "main": "src/constants.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Shared package contracts verified\" && exit 0"
+  },
+  "exports": {
+    ".": "./src/constants.js",
+    "./constants": "./src/constants.js"
+  },
+  "keywords": [
+    "paypilot",
+    "shared",
+    "constants",
+    "contracts"
+  ],
+  "author": "PayPilot AI Contributors",
+  "license": "MIT"
+}

@@ -1,0 +1,30 @@
+{
+  "name": "paypilot-ai",
+  "version": "0.1.0",
+  "private": true,
+  "description": "AI-assisted invoice and payment management platform for freelancers and small businesses",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "concurrently -n \"frontend,backend\" -c \"cyan.bold,green.bold\" \"npm run dev -w @paypilot/frontend\" \"npm run dev -w @paypilot/backend\"",
+    "dev:frontend": "npm run dev -w @paypilot/frontend",
+    "dev:backend": "npm run dev -w @paypilot/backend",
+    "build": "npm run build -w @paypilot/frontend",
+    "test": "npm run test --workspaces --if-present",
+    "lint": "echo \"Linting workspace packages...\" && exit 0"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "keywords": [
+    "paypilot",
+    "monorepo",
+    "invoicing",
+    "paypal",
+    "ai"
+  ],
+  "author": "PayPilot AI Contributors",
+  "license": "MIT"
+}

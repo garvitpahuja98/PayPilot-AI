@@ -1,0 +1,34 @@
+{
+  "name": "@paypilot/frontend",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Next.js frontend web application for PayPilot AI",
+  "type": "module",
+  "scripts": {
+    "dev": "next dev -p 3000",
+    "build": "next build",
+    "start": "next start -p 3000",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@paypilot/shared": "*",
+    "next": "^14.2.15",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^6.5.0",
+    "@testing-library/react": "^16.0.0",
+    "@vitejs/plugin-react": "^4.3.0",
+    "jsdom": "^25.0.0",
+    "vitest": "^2.0.0"
+  },
+  "keywords": [
+    "paypilot",
+    "nextjs",
+    "react",
+    "frontend"
+  ],
+  "author": "PayPilot AI Contributors",
+  "license": "MIT"
+}
