@@ -1,5 +1,4 @@
 # PayPilot AI
-
 > **AI-Assisted Invoice & Payment Management Platform for Freelancers and Small Businesses**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](./LICENSE)
@@ -11,7 +10,7 @@
 
 ---
 
-## 1. Project Overview
+## 1. Project Overview is:
 
 **PayPilot AI** provides independent freelancers and small businesses with an intelligent, seamless billing and cashflow operations engine. With PayPilot AI, users can:
 1. **Accelerate Invoicing:** Convert natural-language task lists into itemized, priced line items with AI assistance.
